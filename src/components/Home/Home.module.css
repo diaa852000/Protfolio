@@ -1,0 +1,45 @@
+:root{
+    --font-secondary:#d61342;
+}
+
+div h5{
+    font-size: 1.7rem;
+}
+
+div h1{
+    font-size: 4.4rem;
+}
+
+div h6{
+    font-size: 1.5rem;
+}
+
+h1 span,h6 span {
+    color: var(--font-secondary);
+}
+
+.socialBtn{
+    transition: 400ms;
+}
+.socialBtn:hover{
+    transform: scale(1.2);
+}
+
+
+img{
+    transition: 1s;
+}
+
+.hoverShape{
+    bottom: 10px;
+    transition:400ms ease-in-out;
+}
+
+.hoverPic{
+    left: 10px;
+    transition: 400ms ease-in-out;
+}
+
+.semiScreen{
+    height: 90vh;
+}
