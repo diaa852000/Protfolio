@@ -1,23 +1,22 @@
-import { Route, Routes } from 'react-router-dom';
+import React from 'react';
 
 import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home/Home';
+import Hero from './components/Hero/Hero';
 import About from './components/About/About';
-import Services from './components/Services/Services';
-import NotFound from './components/NotFound/NotFound';
+import Skills from './components/Skills/Skills';
+import Contact from './components/Contact/Contact';
+
+
 
 function App() {
   return (
-    <>
+    <div className='relative flex flex-col'>
       <Navbar/>
-      <Routes>
-        <Route path='/'  element={<Home/>}/>
-        <Route path='home'  element={<Home/>}/>
-        <Route path='about'  element={<About/>}/>
-        <Route path='services'  element={<Services/>}/>
-        <Route path='*'  element={<NotFound/>}/>
-      </Routes>
-    </>
+      <Hero/>
+      <About/>
+      <Skills/>
+      <Contact/>
+    </div>
   );
 }
 
