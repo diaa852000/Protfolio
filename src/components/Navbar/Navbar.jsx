@@ -22,7 +22,9 @@ const Navbar = () => {
             <ScrollLink to="about" spy={true} smooth={true} offset={-64} duration={500} 
               className='cursor-pointer hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold p-4'>About
             </ScrollLink>
-            <ScrollLink  to='projects' spy={true} smooth={true} offset={-64} duration={500} className='cursor-pointer hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold p-4'>skills
+            <ScrollLink  to='skills' spy={true} smooth={true} offset={-64} duration={500} className='cursor-pointer hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold p-4'>skills
+            </ScrollLink>
+            <ScrollLink  to='projects' spy={true} smooth={true} offset={-64} duration={500} className='cursor-pointer hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold p-4'>projects
             </ScrollLink>
             <ScrollLink  to='contact' spy={true} smooth={true} offset={-64} duration={500} className='cursor-pointer hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold p-4'>contact
             </ScrollLink>
@@ -39,8 +41,11 @@ const Navbar = () => {
             className=' hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold cursor-pointer px-1 py-4 border-b border-gray-600 block'>home</ScrollLink>
           <ScrollLink to="about" spy={true} smooth={true} offset={-64} duration={500} 
             className=' hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold cursor-pointer px-1 py-4 border-b border-gray-600 block'>about</ScrollLink>
-          <ScrollLink to="/" spy={true} smooth={true} offset={-64} duration={500} 
+          <ScrollLink to="skills" spy={true} smooth={true} offset={-64} duration={500} 
             className=' hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold cursor-pointer px-1 py-4 border-b border-gray-600 block'>skills</ScrollLink>
+
+          <ScrollLink to="projects" spy={true} smooth={true} offset={-64} duration={500} 
+            className=' hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold cursor-pointer px-1 py-4 border-b border-gray-600 block'>projects</ScrollLink>
 
           <ScrollLink to="contact" spy={true} smooth={true} offset={-64} duration={500} 
             className=' hover:text-[#d61342] transition-all duration-200 ease-in-out font-semibold cursor-pointer px-1 py-4 block'>contact</ScrollLink>

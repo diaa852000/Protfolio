@@ -19,6 +19,7 @@
 }
 
 body{
+  color-scheme: dark light;
   background-color: var(--bg-mainColor);
   font-family: var(--main-font);
   color: var(--font-color);

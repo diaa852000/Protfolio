@@ -36,8 +36,8 @@ const About = () => {
   },[inView])
 
   return (
-    <div id='about' className='overflow-x-hidden'>
-      <Section className='max-w-[1240px] mx-auto p-2 flex flex-col justify-center gap-2 '>
+    <div id='about' className='overflow-hidden'>
+      <div className='max-w-[1240px] mx-auto p-2 flex flex-col justify-center gap-2 '>
         <div className='py-2 text-center'>
           <h2 className='font-bold text-2xl md:text-4xl'>What I do</h2>
         </div>
@@ -61,7 +61,7 @@ const About = () => {
             </motion.div>
           </div>
         </div>
-      </Section>
+      </div>
     </div>
   )
 }

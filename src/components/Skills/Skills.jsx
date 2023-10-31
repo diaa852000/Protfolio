@@ -29,8 +29,8 @@ const Skills = () => {
 
 
   return (
-    <div id='projects' className='p-2'>
-      <div ref={skills} className=' max-w-[1240px] mx-auto md:h-96 flex flex-col justify-start gap-5 p-2'>
+    <div id='skills' className='p-2 h-[600px] flex items-center'>
+      <div ref={skills} className='max-w-[1240px] mx-auto flex flex-col justify-start items-center gap-5 p-2'>
       <h2 className='font-bold text-2xl md:text-4xl capitalize text-center'>skills</h2>
         <div className='flex justify-center items-center flex-wrap  gap-2 p-2 text-sm leading-normal md:mt-5'>
           {
@@ -38,7 +38,7 @@ const Skills = () => {
             (<motion.div 
                 animate={animation}
                 key={index}
-                className='md:w-22 px-3 pt-2 pb-1 uppercase font-semibold text-slate-200 bg-[#d61342] rounded-full hover:opacity-90 cursor-default my-1'
+                className='px-3 pt-2 pb-1 uppercase font-semibold text-slate-200 bg-[#d61342] rounded-full hover:opacity-90 cursor-default my-1'
               >
                 {skill}
               </motion.div>))

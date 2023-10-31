@@ -13,14 +13,14 @@ import { HeroContent, Section } from '../../Styled/Container/Container.styles';
 const facebookUri = 'https://www.facebook.com/profile.php?id=100003836633797';
 const githubUri = 'https://github.com/diaa852000';
 const linkedinUri = 'https://www.linkedin.com/in/diaa-el-taiby-64861416a/';
-const cvUri = 'https://drive.google.com/drive/folders/1xnEg8Od9myUZqbCBnFiM_XktH7EF-x8j';
+const cvUri = 'https://drive.google.com/file/d/1R8sR0Dq6BNvEkuO8fNaDNxjGmsEI9AoL/view?usp=drive_link';
 
 
 
 export default function Hero() {
   return (
     <div id='home'>
-      <Section className='relative max-w-[1240px] mx-auto h-full md:flex items-star'>
+      <div className='h-[800px] relative max-w-[1240px] mx-auto md:flex items-star overflow-hidden'>
           <HeroContent className=' capitalize absolute top-[50%] transform translate-y-[-50%] px-4 md:px-2 py-2'>
               <div className='text-white'>
                 <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold my-1'>hello, my name is</h2>
@@ -40,7 +40,7 @@ export default function Hero() {
             2xl:right-[0] 2xl:top-[50%] 2xl:transform 2xl:translate-y-[-50%] z-[-1] lg:z-[2]'>
               <img src={myPic} alt="myPic" className='mix-blend-multiply' />
           </div>
-      </Section>
+      </div>
     </div>
   )
 }
