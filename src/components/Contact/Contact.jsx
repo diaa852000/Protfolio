@@ -13,10 +13,8 @@ const Contact = () => {
     
     emailjs.sendForm('service_c0vc0fr', 'template_ladcnbt', formRef.current, 'Q_tW8r5vqGYqlL4hV').then((result) => {
       setSuccess(true);
-        console.log(result.text);
       }, (error) => {
         setSuccess(false);
-        console.error(error.text);
     });
   }
 

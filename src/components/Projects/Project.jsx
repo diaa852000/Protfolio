@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import weather from "../../assest/images/weatherapp.jpg" 
 import ecommerce from "../../assest/images/ecommerce.jpg" 
 import landing from "../../assest/images/landingpage.jpg"
-import landingTwo from "../../assest/images/landingTwo.jpg"
+import interiorDesign from "../../assest/images/landingTwo.jpg"
 import FadeIn from '../FadeIn/FadeIn'
 
 const Project = () => {
@@ -26,15 +26,15 @@ const Project = () => {
             "image": ecommerce
         },
         {
-            "name": "landing page-(2)", 
+            "name": "Interior Design", 
             "link": "https://radiant-gumption-7b9b5c.netlify.app/",
-            "image": landingTwo
+            "image": interiorDesign
         },
 
     ]
 
     return (
-        <div id='projects' className=''>
+        <div id='projects'>
             <div className='max-w-[1240px] mx-auto py-6 flex flex-col lg:flex-row justify-evenly items-center '>
                 {myProjects.map((project, index ) => (
                     <FadeIn key={index} delay={(index + 1) * 0.1} direction={index >= 2 ? "left" : "right"}>

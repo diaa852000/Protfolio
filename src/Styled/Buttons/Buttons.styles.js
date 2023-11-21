@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const PrimaryBtn = styled(Link)`
+export const PrimaryBtn = styled.a`
     display: inline-block;
     background-color:#2f2f2f;
     border: 2px solid transparent;

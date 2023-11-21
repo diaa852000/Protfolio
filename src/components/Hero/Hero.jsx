@@ -13,7 +13,7 @@ import { HeroContent, Section } from '../../Styled/Container/Container.styles';
 const facebookUri = 'https://www.facebook.com/profile.php?id=100003836633797';
 const githubUri = 'https://github.com/diaa852000';
 const linkedinUri = 'https://www.linkedin.com/in/diaa-el-taiby-64861416a/';
-const cvUri = 'https://drive.google.com/file/d/1R8sR0Dq6BNvEkuO8fNaDNxjGmsEI9AoL/view?usp=drive_link';
+const cvUri = 'https://drive.google.com/file/d/1kHjwZX6YK4kREZIDWe_54prsRRL2uPuN/view?usp=drive_link';
 
 
 
@@ -28,7 +28,7 @@ export default function Hero() {
                 <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold my-1'>i'm a <span className='text-gray-500 pe-1'>frontend</span>developer</h2>
               </div>
               <div className='text-start my-1'>
-                <PrimaryBtn to={cvUri} className=' text-xl xl:text-2xl text-center font-semibold w-36 md:w-40 rounded-full py-2'>my cv</PrimaryBtn>
+                <PrimaryBtn href={cvUri} target='_blank' className=' text-xl xl:text-2xl text-center font-semibold w-36 md:w-40 rounded-full py-2'>my cv</PrimaryBtn>
               </div>
               <div className='flex items-center gap-3 md:justify-start pl-3 my-3'>
                 <Link to={facebookUri} className='hover:scale-110 transition-all duration-200 ease-in-out'><img src={facebook} alt="facebook" /></Link>
