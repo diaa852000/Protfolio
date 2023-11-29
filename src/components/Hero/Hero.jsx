@@ -13,7 +13,7 @@ import { HeroContent, Section } from '../../Styled/Container/Container.styles';
 const facebookUri = 'https://www.facebook.com/profile.php?id=100003836633797';
 const githubUri = 'https://github.com/diaa852000';
 const linkedinUri = 'https://www.linkedin.com/in/diaa-el-taiby-64861416a/';
-const cvUri = 'https://drive.google.com/file/d/1R3T691vUcaMvUeYVjXjqE-aB967_C75k/view?usp=sharing';
+const cvUri = 'https://drive.google.com/file/d/1Cefg_Wb8NqSvycfYbtpRGlN7_tUm0afo/view?usp=drive_link';
 
 
 
