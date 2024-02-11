@@ -5,10 +5,17 @@ import weather from "../../assest/images/weatherapp.jpg"
 import ecommerce from "../../assest/images/ecommerce.jpg" 
 import landing from "../../assest/images/landingpage.jpg"
 import interiorDesign from "../../assest/images/landingTwo.jpg"
+import netflix from "../../assest/images/netflix.jpg"
+
 import FadeIn from '../FadeIn/FadeIn'
 
 const Project = () => {
     const myProjects = [
+        {
+            "name": "weather app", 
+            "link":"https://netflix-v2-82d4b.web.app/",
+            "image": netflix
+        },
         {
             "name": "weather app", 
             "link":"https://tourmaline-tartufo-952345.netlify.app/",
@@ -35,7 +42,7 @@ const Project = () => {
 
     return (
         <div id='projects'>
-            <div className='max-w-[1240px] mx-auto py-6 flex flex-col lg:flex-row justify-evenly items-center '>
+            <div className='max-w-[1240px] mx-auto py-6 flex flex-col lg:flex-row flex-wrap justify-evenly items-center '>
                 {myProjects.map((project, index ) => (
                     <FadeIn key={index} delay={(index + 1) * 0.1} direction={index >= 2 ? "left" : "right"}>
                         <div className='text-white flex flex-col'>
