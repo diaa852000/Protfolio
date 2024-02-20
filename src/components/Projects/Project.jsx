@@ -12,7 +12,7 @@ import FadeIn from '../FadeIn/FadeIn'
 const Project = () => {
     const myProjects = [
         {
-            "name": "weather app", 
+            "name": "Netflix clone app", 
             "link":"https://netflix-v2-82d4b.web.app/",
             "image": netflix
         },
